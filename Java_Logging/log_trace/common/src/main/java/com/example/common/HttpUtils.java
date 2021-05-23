@@ -15,6 +15,7 @@ public class HttpUtils {
     public static String get(String url) throws URISyntaxException {
         RestTemplate restTemplate = new RestTemplate();
         MultiValueMap<String, String> headers = new HttpHeaders();
+        //将traceId放在请求头中，保证服务间调用能够获取记录
         headers.add("traceId", MDC.get("traceId"));
         URI uri = new URI(url);
         RequestEntity<?> requestEntity = new RequestEntity<>(headers, HttpMethod.GET, uri);

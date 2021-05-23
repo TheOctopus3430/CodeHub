@@ -1,4 +1,4 @@
-package com.example.orderservice;
+package com.example.userservice;
 
 
 import com.example.common.TraceThreadPoolExecutor;
@@ -11,17 +11,17 @@ import java.util.concurrent.TimeUnit;
 
 @Service
 @Slf4j
-public class OrderServiceImpl   implements  OrderService{
+public class UserServiceImpl   implements  UserService{
 
     public static final TraceThreadPoolExecutor threadPool = new TraceThreadPoolExecutor(5, 5, 60, TimeUnit.SECONDS, new LinkedBlockingQueue<>(100));
 
     @Async
     @Override
-    public void sendMsgBySpring() {
-        log.info("send msg by spring success");
+    public void sendMsgByAsy() {
+        log.info("通过Async线程执行异步任务");
     }
     @Override
     public void sendMsgByThreadPool() {
-        threadPool.execute(()->log.info("send msg by thread pool success"));
+        threadPool.execute(()->log.info("线程池执行异步任务"));
     }
 }

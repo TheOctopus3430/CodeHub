@@ -9,14 +9,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class OrderController {
 
-    @Autowired
-    private OrderService orderService;
 
     @GetMapping("/order")
     public String order() {
-        log.info("start order...");
-        orderService.sendMsgBySpring();
-        orderService.sendMsgByThreadPool();
+        log.info("订单服务...");
         return "success";
     }
 }
