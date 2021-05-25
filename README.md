@@ -4,6 +4,10 @@
 * log_trace  分布式日志追踪实现
 
 
+### rpa RPA相关技术
+* csdn  使用selenium操作CSDN网站示例
+
+
 ### aliyun_oss 阿里云OSS使用示例代码
 * oss 阿里云上传下载示例
 
