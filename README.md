@@ -1,8 +1,13 @@
-### [一、SpringCloudAlibaba SpringCloudAlibaba实践整理](https://github.com/TheOctopus3430/CodeHub/tree/main/SpringCloudAlibaba)
+### [SpringCloudAlibaba SpringCloudAlibaba实践整理](https://github.com/TheOctopus3430/CodeHub/tree/main/SpringCloudAlibaba)
 #### [（一）SpringCloudGateway  微服务网关](https://github.com/TheOctopus3430/CodeHub/tree/main/SpringCloudAlibaba/SpringCloudGateway)
 ##### （1）微服务网关基础示例 
 * spring-cloud-gateway-service  普通服务
 * spring-cloud-gateway-sample  网关
+
+
+### authority&authentication  认证授权系列
+#### [jwt JsonWebToken使用](https://github.com/TheOctopus3430/CodeHub/tree/main/authority&authentication/jwt))
+* jjwt  使用jjwt完成JWT的生成和验证
 
 ### aop  aop实践整理
 
