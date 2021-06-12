@@ -4,10 +4,18 @@
 * spring-cloud-gateway-service  普通服务
 * spring-cloud-gateway-sample  网关
 
+##### （2）分布式事务Seata 
+* code Seata个人使用示例
+* 18.zip  学习源码：综合应用：Seata 分布式事务实战教程
+
 
 ### [authority&authentication  认证授权系列]()
 #### [（一）jwt JsonWebToken使用](https://github.com/TheOctopus3430/CodeHub/tree/main/authority&authentication/jwt)
 * jjwt  使用jjwt完成JWT的生成和验证
+
+
+
+
 
 ### [aop  aop实践整理]()
 
