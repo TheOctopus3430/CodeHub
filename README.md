@@ -11,14 +11,14 @@
 
 ### [authority&authentication  认证授权系列]()
 #### [（一）jwt JsonWebToken使用](https://github.com/TheOctopus3430/CodeHub/tree/main/authority&authentication/jwt)
-* jjwt  使用jjwt完成JWT的生成和验证
+* [jjwt  使用jjwt完成JWT的生成和验证]
 
 
 ### [visual-drag=demo  网页组件拖曳实践]()
 
 ### [repo  开发实践代码库]()
-#### [delay-queue  延时队列实现]()
-#### [oshi-core  获取系统信息工具]()
+* #### [（一）delay-queue  延时队列实现]()
+* ####  [（二）oshi-core  获取系统信息工具]()
 
 
 
