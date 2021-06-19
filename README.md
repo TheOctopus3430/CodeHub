@@ -18,10 +18,15 @@
 
 ### [repo  开发实践代码库]()
 #### [delay-queue  延时队列实现]()
+#### [oshi-core  获取系统信息工具]()
+
 
 
 ### [aop  aop实践整理]()
 
+
+
+### [redis  Redis实践整理]()
 
 ### [Java_Logging Java日志体系ELK、链路追踪、MDC]()
 * [mdc  MDC日志应用实践](https://github.com/TheOctopus3430/CodeHub/tree/main/Java_Logging/mdc)
